@@ -1,0 +1,86 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+}
+
+.App {
+    display: flex;
+    background-color: #d9d9d9;
+    flex: 100%;
+  }
+  
+  .home{
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 20px #9c9999;
+    background-color: #fff;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+    position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    z-index: 2;
+  }
+  .logo{
+    /* width: 130px; */
+    height: 80px;
+  }
+  .left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu div{
+    margin-left: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: #023047;
+    cursor: pointer;
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .logout{
+    background-color: #023047;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  .logout:hover{
+    opacity: 1.0;
+  }
+  
+  .main{
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    padding: 0px 150px;
+    background-color: #d1cccc;
+    justify-content: space-between;
+  }
+  
+  .feed{
+    max-width: 600px;
+    min-width: 380px;
+    max-height: 90vh;
+    overflow: scroll;
+  }
+  
+  .feed::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }

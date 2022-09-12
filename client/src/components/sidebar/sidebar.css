@@ -1,0 +1,332 @@
+.sidebar {
+  flex: 3;
+  position: -webkit-sticky;
+  position: sticky;  
+  top: 50px;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebarWrapper {
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.profileCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  min-height: 400px;
+  
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+.snip1336 {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.78);
+
+}
+.snip1336 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+  .userNameNImg{
+    display: flex;
+    height: 180px;
+    flex-direction: row;
+    padding:  0 0px 0 0px;
+    position: relative;
+  }
+.cover{
+  height: 120px;
+  width: 100%;
+  border-radius: 10px;
+  vertical-align: top;
+  opacity: 0.65;
+  margin: 15px;
+}
+.coverEditIcon{
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  
+}.profileEditIcon{
+  position: absolute;
+  left: 90px;
+  bottom: -10px;
+  z-index: 2;
+  
+}
+.EditIcon{
+  padding: 3px;
+  background-color: gray;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+
+}
+.snip1336 .profile {
+  border-radius: 10px;
+  height: 70px;
+  width: 70px;
+  bottom: 0;
+  left: 40px;
+  z-index: 1;
+  position: absolute;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
+.snip1336 pre {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 20px;
+  left: 120px;
+  bottom: 0;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.snip1336 pre span {
+  display: block;
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #b3b9bd;
+}
+.snip1336 p span {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  color: #000305;
+}
+.snip1336 p {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: left !important ;
+  display: block;
+  margin-bottom: 10px;
+  color: #000305;
+}
+.username{
+  font-family: sans-serif;
+  color: #000305;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.title{
+  font-size: 0.9rem;
+  color: #b3b9bd;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.bio{
+  font-size: 0.9rem;
+  color: #000;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.snip1336 figcaption {
+  /*
+  */
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 25px 25px 25px ;
+}
+.followersSection{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+}
+.followersSection h1{
+  font-size: 1rem;
+  text-align: center;
+}.followersSection h1 h4{
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 5px;
+  color: #b3b9bd;
+  
+}
+
+
+.snip1336 figcaption a:hover {
+  opacity: 1;
+}
+
+.snip1336 p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: justify;
+  opacity: 0.8;
+}
+
+
+.followBtn {
+  width: 100%;
+  background-color: #2980b9;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ .followBtn:hover{
+   opacity: 0.8;
+ }
+ .unfollowBtn {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ .unfollowBtn:hover{
+   opacity: 0.7;
+ }
+.ProfileUpload_conatainer{
+  display:  flex;
+  margin-top: 10PX;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.profileUpload{
+  position: absolute;
+  cursor: pointer;
+}
+.profileUpload:hover{
+  opacity: 0.6;
+
+}
+.profileUpload img{
+  height: 40px;
+}
+.profileUpload h3{
+  font-size: 14px;
+
+}
+
+.followModal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 250px;
+  
+}
+
+.followModalTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.followModalButton{
+  height: 100%;
+  width: 50%;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.followModalButtonActive{
+  height: 100%;
+  width: 50%;
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.imgBorder{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background:  linear-gradient(to bottom right, rgb(97, 6, 6), rgb(231, 105, 32))border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.followerCard{
+  width: 85%;
+  display: flex;
+  margin: 0 30px;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: space-between;  
+  align-items: center;
+
+}
+.followcardleft{
+  display: flex;
+  flex-direction: row;
+
+}
+.followcardleft img{
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.followcardUser{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.followcardName{
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+.followcardAbout{
+  font-size: 14px;
+  color: rgb(46, 44, 44);
+}
+.followModalFollowBtn{
+  padding: 5px 25px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+}
